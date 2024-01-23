@@ -8,9 +8,9 @@ import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 
 @Composable
-fun CitiesFloatingButton() {
+fun CitiesFloatingButton(onFabClick: () -> Unit) {
     FloatingActionButton(
-        onClick = { /*TODO*/ },
+        onClick = onFabClick,
         shape = CircleShape
     ) {
         Icon(
