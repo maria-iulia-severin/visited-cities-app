@@ -1,6 +1,6 @@
 The Visited Cities App is a simple Android application that allows users to maintain a list of visited cities.
 
-Features
+**Features**
 1. City List: The main screen displays a LazyList of cities.
 2. Add City: Users can add a new city to their visited list by clicking the floating action button. They can input the city name and country, and the list dynamically updates.
 3. Sorting: After adding a city, the user can sort the list alphabetically.
